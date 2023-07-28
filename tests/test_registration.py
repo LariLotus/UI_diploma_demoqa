@@ -22,7 +22,7 @@ def test_registration():
         address='Moscow',
         birthday=date(2001, 1, 1),
         gender='Female',
-        subject='Math',
+        subject='Economics',
         hobby=[Hobby.Music, Hobby.Sports],
         image='cat.jpeg',
         state='Haryana',
