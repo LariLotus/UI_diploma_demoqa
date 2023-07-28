@@ -1,4 +1,5 @@
 import allure
+
 from demoqa_tests.model.pages.browser_windows import WindowPage
 
 browser_windows = WindowPage()
