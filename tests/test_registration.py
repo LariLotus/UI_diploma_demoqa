@@ -24,7 +24,7 @@ def test_registration():
         gender='Female',
         subject='Math',
         hobby=[Hobby.Music, Hobby.Sports],
-        image='Toolsqa.jpg',
+        image='cat.jpeg',
         state='Haryana',
         city='Karnal')
     with allure.step('Opening the registration page'):

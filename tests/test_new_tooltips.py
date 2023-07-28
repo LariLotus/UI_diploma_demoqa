@@ -4,7 +4,7 @@ from demoqa_tests.model.pages.tooltips import TooltipPage
 tooltips = TooltipPage()
 
 
-@allure.label('owner', 'Olga Larionova')
+@allure.label('owner', 'Larisa Badmaeva')
 @allure.feature('Tests DemoQA')
 @allure.title('Text field tooltip')
 def test_confirm_alert():

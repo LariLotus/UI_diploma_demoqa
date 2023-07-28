@@ -4,7 +4,7 @@ from demoqa_tests.model.pages.browser_windows import WindowPage
 browser_windows = WindowPage()
 
 
-@allure.label('owner', 'Olga Larionova')
+@allure.label('owner', 'Larisa Badmaeva')
 @allure.feature('DemoQA Tests')
 @allure.title("Opening a second browser tab")
 def test_confirm_alert():
