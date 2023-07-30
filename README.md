@@ -41,37 +41,31 @@
 ## Running a project in Jenkins
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/ui_diploma_badmaeva/">link Jenkins</a>
 
-![This is an image](/resourses/jenkins.png)
+![This is an image](/screenshots/jenkins.png)
 
-Для запуска тестов выбрать пункт **"Собрать сейчас"**
+To run the tests, select the item **"Собрать сейчас"**
 
-## Отчеты о прохождении тестов доступны в Allure
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/API_diploma/allure/">Ссылка на отчет</a>
+## Test reports are available at Allure
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/ui_diploma_badmaeva/allure/">link to the report</a>
 
-![This is an image](/resourses/Allure_report.png)
+![This is an image](/screenshots/allure_report.png)
 
-![This is an image](/resourses/Allure_graphs.png)
+![This is an image](/screenshots/allure_graphs.png)
 
-![This is an image](/resourses/Allure_behaviors.png)
+![This is an image](/screenshots/allure_beh.png)
 
-## Проект интегрирован с Allure TestOps
+## Integration with Allure TestOps
 
-### Итоговые dashboard по результатам сборок
-![This is an image](/resourses/AllureTestOps_dashboard.png)
-![This is an image](/resourses/TestOps_testcases.png)
+### Final dashboard with the test results
+![This is an image](/screenshots/testops3.png)
+![This is an image](/screenshots/testops2.png)
 
 
-### Аналитическая dashboard с Features и Launches
-![This is an image](/resourses/AllureTestOps_features.png)
-![This is an image](/resourses/AllureTestOps_launchers.png)
+## Integration with Jira
+### Having set up integration with Jira through Allure TestOps, you can forward the result of passing tests and a list of test cases from Allure to a ticket
+![This is an image](/screenshots/jira.png)
 
-## Интеграция с Jira
-### Настроив через Allure TestOps интеграцию с Jira, в тикет можно пробросить результат прохождение тестов и список тест-кейсов из Allure
-![This is an image](/resourses/jira.png)
 
-## Интеграция с Telegram
-### После прохождения тестов, в Telegram bot приходит сообщение с графиком и краткой информацией о тестах
-![This is an image](/resourses/telegram1.png)
 
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
