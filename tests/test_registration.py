@@ -20,7 +20,7 @@ def test_registration():
         email='test@gmail.com',
         phone='8999955555',
         address='Moscow',
-        birthday=date(2023, 7, 30),
+        birthday=date(2001, 7, 30),
         gender='Female',
         subject='Economics',
         hobby=[Hobby.Music, Hobby.Sports],
